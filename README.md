@@ -87,7 +87,7 @@ rosbag play rgbd_dataset_freiburg1_xyz.bag
 - Change the calibration params in `RealSense_D435i.yaml` if necessary.
 ```
 # In one terminal:
-roslaunch orb_slam3_ros rs_d435i_rgbd_inertial.launch.launch
+roslaunch orb_slam3_ros rs_d435i_rgbd_inertial.launch
 # In another terminal:
 rosbag play Normal.bag
 ```
